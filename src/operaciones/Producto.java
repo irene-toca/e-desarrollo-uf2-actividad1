@@ -1,10 +1,10 @@
 package operaciones;
 
 /**
- * Esta clase implementará todos los métodos que están relacionados con la
- * multiplicación de la calculadora.
+ * Esta clase implementar todos los metodos que estan relacionados con la
+ * multiplicacion de la calculadora.
  * 
- * @author Félix
+ * @author Felix
  *
  */
 public class Producto {
@@ -12,8 +12,8 @@ public class Producto {
 	/**
 	 * Multiplica dos reales.
 	 * 
-	 * @param num1 número real 1.
-	 * @param num2 número real 2.
+	 * @param num1 numero real 1.
+	 * @param num2 numero real 2.
 	 * @return un double, producto de (num1, num2).
 	 */
 	public double multiplica2reales(double num1, double num2) {
@@ -23,8 +23,8 @@ public class Producto {
 	/**
 	 * Multiplica dos enteros.
 	 * 
-	 * @param num1 entero número 1.
-	 * @param num2 entero número 2.
+	 * @param num1 entero numero 1.
+	 * @param num2 entero numero 2.
 	 * @return un integer, producto de (num1, num2).
 	 */
 	public int multiplica2enteros(int num1, int num2) {
@@ -34,9 +34,9 @@ public class Producto {
 	/**
 	 * Multiplica tres reales.
 	 * 
-	 * @param num1 número real 1.
-	 * @param num2 número real 2.
-	 * @param num3 número real 3.
+	 * @param num1 numero real 1.
+	 * @param num2 numero real 2.
+	 * @param num3 nmero real 3.
 	 * @return un double, producto de (num1, num2, num3).
 	 */
 	public double multiplica3reales(double num1, double num2, double num3) {
@@ -44,10 +44,10 @@ public class Producto {
 	}
 
 	/**
-	 * Exponecia un número en función de otro.
+	 * Exponecia un numero en funciun de otro.
 	 * 
-	 * @param num1 número real base.
-	 * @param num2 número real exponente.
+	 * @param num1 numero real base.
+	 * @param num2 numero real exponente.
 	 * @return un double, resultado de elevar num1 a num2.
 	 */
 	public double potencia(double num1, double num2) {

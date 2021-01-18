@@ -1,6 +1,6 @@
 package operaciones;
 /**
- * Clase 1: Suma. Esta clase implementará todos los métodos que están relacionados con la sumas de la calculadora.
+ * Clase 1: Suma. Esta clase implementar todos los metodos que estan relacionados con la sumas de la calculadora.
  * 
  * @author irene
  *
@@ -13,10 +13,10 @@ public class Suma {
 	
 	
 	/**
-	 * Sumamos dos números reales
+	 * Sumamos dos numeros reales
 	 * 
-	 * @param num1 primer número real a sumar
-	 * @param num2 segundo número real a sumar
+	 * @param num1 primer numero real a sumar
+	 * @param num2 segundo numero real a sumar
 	 * @return  double, suma de (num1, num2)
 	 */
 	public double suma2Reales(double num1, double num2) {
@@ -26,10 +26,10 @@ public class Suma {
 	
 	
 	/**
-	 * Sumamos 2 números Enteros
+	 * Sumamos 2 numeros Enteros
 	 * 
-	 * @param num1 primer número real a sumar
-	 * @param num2 segundo número real a sumar
+	 * @param num1 primer numero real a sumar
+	 * @param num2 segundo numero real a sumar
 	 * @return int, suma de (num1, num2) 
 	 */
 	public int suma2Enteros(int num1, int num2) {
@@ -40,11 +40,11 @@ public class Suma {
 	
 	
 	/**
-	 *  Sumamos tres números reales
+	 *  Sumamos tres numeros reales
 	 * 
-	 * @param num1 primer número real a sumar
-	 * @param num2 segundo número real a sumar
-	 * @param num3 terser número  real a sumar
+	 * @param num1 primer numero real a sumar
+	 * @param num2 segundo numero real a sumar
+	 * @param num3 terser numero  real a sumar
 	 * @return  double, suma de (num1, num2, num3)
 	 */
 	public double suma3Reales(double num1, double num2, double num3) {
@@ -56,7 +56,7 @@ public class Suma {
 	/**
 	 * Obtenemos el valor acumulado
 	 * 
-	 * @param num valor añadido al acumulador 
+	 * @param num valor auadido al acumulador 
 	 * @return int el total del acumulador
 	 */
 

@@ -1,7 +1,7 @@
 package operaciones;
 
 /**
- * Esta clase definirá las operaciones relacionadas con la Resta
+ * Esta clase definira las operaciones relacionadas con la Resta
  * 
  * @author rober
  *

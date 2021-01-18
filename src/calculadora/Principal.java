@@ -7,15 +7,15 @@ import operaciones.Resta;
 import operaciones.Suma;
 
 /**
- * Prueba de los métodos de la calculadora
+ * Prueba de los metodos de la calculadora
  * @author irene, Félix, rober, Pedro
  *
  */
 public class Principal {
 	
 	/**
-	 * Método de entrada a la aplicación
-	 * @param args Parámetros del método
+	 * Metodo de entrada a la aplicacion
+	 * @param args Parametros del metodo
 	 */
 	public static void main(String[] args) {
 		double a; 

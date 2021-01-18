@@ -1,12 +1,12 @@
 package operaciones;
 
 /**
- * Esta clase definirá las operaciones relacionadas con la resta
+ * Esta clase definirá las operaciones relacionadas con la Resta
  * 
  * @author rober
  *
  */
-public class resta {
+public class Resta {
     
     static int acumuLador = -0;
 	
@@ -30,8 +30,8 @@ public class resta {
 	}
         
         public int restaAcumulado(int num){
-            resta.acumuLador= resta.acumuLador - (num);
-            return resta.acumuLador;
+            Resta.acumuLador= Resta.acumuLador - (num);
+            return Resta.acumuLador;
             
         }
         

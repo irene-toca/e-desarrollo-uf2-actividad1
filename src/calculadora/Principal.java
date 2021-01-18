@@ -3,6 +3,7 @@ package calculadora;
 import java.util.Locale;
 import java.util.Scanner;
 
+import operaciones.Resta;
 import operaciones.Suma;
 
 public class Principal {
@@ -19,14 +20,14 @@ public class Principal {
 		
 		
 		
-		System.out.println("\nPRIMER M�TODO  SUMA DE  2 REALES\n");
-		System.out.println("Introduce un numero");
+		System.out.println("\nPRIMER MÉTODO  SUMA DE  2 REALES\n");
+		System.out.println("Introduce un número");
 		
 		Scanner scanner = new Scanner(System.in);
 		scanner.useLocale(Locale.US);
 		 a = scanner.nextDouble();
 		System.out.println(a);
-		System.out.println("Introduce otro numero");
+		System.out.println("Introduce otro número");
 		 b = scanner.nextDouble();
 		System.out.println(b);
 		
@@ -38,11 +39,11 @@ public class Principal {
 		
 		
 		
-		System.out.println("\nSEGUNDO M�TODO  SUMA DE ENTEROS\n");
-		System.out.println("Introduce un numero");
+		System.out.println("\nSEGUNDO MÉTODO  SUMA DE ENTEROS\n");
+		System.out.println("Introduce un número");
 		 a1 = scanner.nextInt();
 		System.out.println(a1);
-		System.out.println("Introduce otro numero");
+		System.out.println("Introduce otro número");
 		 b1 = scanner.nextInt();
 		System.out.println(b1);
 		
@@ -52,14 +53,14 @@ public class Principal {
 		
 		
 		
-		System.out.println("\nTERCER M�TODO  SUMA DE 3 REALES\n");
-		System.out.println("Introduce un numero");
+		System.out.println("\nTERCER MÉTODO  SUMA DE 3 REALES\n");
+		System.out.println("Introduce un número");
 		 a = scanner.nextDouble();
 		System.out.println(a);
-		System.out.println("Introduce otro numero");
+		System.out.println("Introduce otro número");
 		 b = scanner.nextDouble();
 		System.out.println(b);
-		System.out.println("Introduce �ltimo numero");
+		System.out.println("Introduce último número");
 		c = scanner.nextDouble();
 		
 		resultado = suma1.suma3Reales(a, b, c);
@@ -68,27 +69,25 @@ public class Principal {
 		
 		
 		
-		System.out.println("\nCUARTO M�TODO ACUMULANDO \n");
-		System.out.println("Introduce un numero");
+		System.out.println("\nCUARTO MÉTODO ACUMULANDO \nejecutado 3 veces");
+		System.out.println("Introduce un número");
 		 a1 = scanner.nextInt();
 		 solucion = suma1.valorAcumulado(a1);
 		System.out.println("El valor acumulado es : "  + solucion);
 		
-		System.out.println("\nCUARTO M�TODO ACUMULANDO \n");
-		System.out.println("Introduce un numero");
+		System.out.println("Introduce un número");
 		 a1 = scanner.nextInt();
 		 solucion = suma1.valorAcumulado(a1);
 		System.out.println("El valor acumulado es : "  + solucion);
 		
-		System.out.println("\nCUARTO M�TODO ACUMULANDO \n");
-		System.out.println("Introduce un numero");
+		System.out.println("Introduce un número");
 		 a1 = scanner.nextInt();
 		 solucion = suma1.valorAcumulado(a1);
 		System.out.println("El valor acumulado es : "  + solucion);
 		
 		//CLASE 2 RESTA
 		
-		System.out.println("PRIMER METODO RESTA 2 NUMEROS REALES");
+		System.out.println("\n***********\nPRIMER MÉTODO RESTA 2 NUMEROS REALES");
 
         System.out.println("Introduce un número");
 
@@ -98,14 +97,14 @@ public class Principal {
 
         b = scanner.nextDouble();
 
-        resta resta1 = new resta();
+        Resta resta1 = new Resta();
 
         resultado = resta1.resta2Reales(a, b);
 
-        System.out.println("El resultado de la resta es " + resultado);
+        System.out.println("El resultado de la Resta es " + resultado);
         System.out.println();
 
-        System.out.println("SEGUNDO METODO RESTA 2 NUMEROS ENTEROS");
+        System.out.println("SEGUNDO MÉTODO RESTA 2 NUMEROS ENTEROS");
 
         System.out.println("Introduce un número");
 
@@ -117,10 +116,10 @@ public class Principal {
 
         solucion = resta1.resta2Enteros(a1, b1);
 
-        System.out.println("El resultado de la resta es " + resultado);
+        System.out.println("El resultado de la Resta es " + solucion);
         System.out.println();
 
-        System.out.println("TERCER METODO RESTA 3 NUMEROS REALES");
+        System.out.println("TERCER MÉTODO RESTA 3 NUMEROS REALES");
 
         System.out.println("Introduce un número");
 
@@ -130,16 +129,16 @@ public class Principal {
 
         b = scanner.nextDouble();
 
-        System.out.println("Introduce el ultimo numero");
+        System.out.println("Introduce el ultimo número");
 
         c = scanner.nextDouble();
 
         resultado = resta1.resta3Reales(a, b, c);
 
-        System.out.println("El resultado de la resta es " + resultado);
+        System.out.println("El resultado de la Resta es " + resultado);
         System.out.println();
 
-        System.out.println("CUARTO METODO RESTA CON VALOR ACUMULADO");
+        System.out.println("CUARTO MÉTODO RESTA CON VALOR ACUMULADO\nejecutado 3 veces");
 
         System.out.println("Introduce un número");
 
@@ -148,7 +147,6 @@ public class Principal {
         solucion = resta1.restaAcumulado(a1);
         System.out.println("El valor acumulado es " + solucion);
 
-        System.out.println("CUARTO METODO RESTA CON VALOR ACUMULADO");
 
         System.out.println("Introduce un número");
 
@@ -157,7 +155,6 @@ public class Principal {
         solucion = resta1.restaAcumulado(a1);
         System.out.println("El valor acumulado es " + solucion);
 
-        System.out.println("CUARTO METODO RESTA CON VALOR ACUMULADO");
 
         System.out.println("Introduce un número");
 

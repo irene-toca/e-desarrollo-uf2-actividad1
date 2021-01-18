@@ -6,9 +6,17 @@ import java.util.Scanner;
 import operaciones.Resta;
 import operaciones.Suma;
 
+/**
+ * Prueba de los métodos de la calculadora
+ * @author irene, Félix, rober, Pedro
+ *
+ */
 public class Principal {
 	
-	
+	/**
+	 * Método de entrada a la aplicación
+	 * @param args Parámetros del método
+	 */
 	public static void main(String[] args) {
 		double a; 
 		double b;
@@ -163,7 +171,7 @@ public class Principal {
         solucion = resta1.restaAcumulado(a1);
         System.out.println("El valor acumulado es " + solucion);
 		
-		
+		System.out.println("Fin del programa");
 	}
 
 }

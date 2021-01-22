@@ -4,13 +4,24 @@ package operaciones;
  * Esta clase definirá las operaciones relacionadas con la resta
  * 
  * @author rober
- *
+ ** @version 1.0
+ * @since 18-01-2021 .
  */
-public class resta {
-    
-    static int acumuLador = -0;
+public class Resta {
 	
+	/**
+	 * Usando la variable entera acumuLador iremos restando numeros 
+	 */
+    static int acumuLador = 0;
+    
+    /**
+	 * Variable de tipo double para restar los dos numeros reales
+	 */
 	double resultado;
+	
+	 /**
+	  * Variable de tipo integer para restar los numeros enteros
+	  */
 	int solucion;
 	
 	
@@ -30,8 +41,8 @@ public class resta {
 	}
         
         public int restaAcumulado(int num){
-            resta.acumuLador= resta.acumuLador - (num);
-            return resta.acumuLador;
+            Resta.acumuLador= Resta.acumuLador - (num);
+            return Resta.acumuLador;
             
         }
         

@@ -33,7 +33,7 @@ public class Suma {
 	 * 
 	 * @param num1  es un double y es el primer numero real a sumar
 	 * @param num2  es un double y es el segundo numero real a sumar
-	 * @return      Nos devuelve  double como resultado  ya que es la  suma de dos numeros  reales  (num1, num2) que retornan
+	 * @return resultado      Nos devuelve  double como resultado  ya que es la  suma de dos numeros  reales  (num1, num2) que retornan
 	 * 
 	 */
 	public double suma2Reales(double num1, double num2) {
@@ -49,7 +49,7 @@ public class Suma {
 	 * 
 	 * @param num1  es un int primer numero entero a sumar
 	 * @param num2  es un int segundo numero entero a sumar
-	 * @return      Nos devuelve  int como solucion ya que es la  suma de dos numeros enteros  (num1, num2) que retornan
+	 * @return solucion      Nos devuelve  int como solucion ya que es la  suma de dos numeros enteros  (num1, num2) que retornan
 	 * 
 	 */
 	public int suma2Enteros(int num1, int num2) {
@@ -66,7 +66,7 @@ public class Suma {
 	 * @param num1  es un double y es el primer numero real a sumar
 	 * @param num2  es un double y es el segundo numero real a sumar
 	 * @param num3  es un double y es el tercer numero real a sumar
-	 * @return      Nos devuelve  double como resultado  ya que es la  suma de tres  numeros 
+	 * @return resultado     Nos devuelve  double como resultado  ya que es la  suma de tres  numeros 
 	 *              reales  (num1, num2, num3) que retornan
 	 * 
 	 */
@@ -85,7 +85,7 @@ public class Suma {
 	 * 
 	 * @param  num valor que nos pasan por consola y los vamos sumando almenos 3 veses  ejemplo  3+4=7+2=9
 	
-	 * @return Nos devuelve int el total del acumulador que retorna y es 9
+	 * @return Suma.acumulador Nos devuelve int el total del acumulador que retorna y es 9
 	 * 
 	 */
 

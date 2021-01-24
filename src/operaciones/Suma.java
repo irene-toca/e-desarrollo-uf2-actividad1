@@ -31,6 +31,9 @@ public class Suma {
 	 * Creamos un metodo  double  Suma2Reales
 	 * al cual le pasamos por consola  dos numeros reales para poderlos sumar 
 	 * 
+	 * Casos especiales: 1. Si no se ingresan números se volverá a pedir al usuario
+	 * un dato hasta que sea de tipo numérico. 
+	 * 
 	 * @param num1  es un double y es el primer numero real a sumar
 	 * @param num2  es un double y es el segundo numero real a sumar
 	 * @return resultado      Nos devuelve  double como resultado  ya que es la  suma de dos numeros  reales  (num1, num2) que retornan
@@ -47,6 +50,9 @@ public class Suma {
 	 * Creamos un metodo int Sumamos2Enteros
 	 * al cual le pasamos por consola  dos numeros enteros  para poderlos suma
 	 * 
+	 * Casos especiales: 1. Si no se ingresan números enteros se volverá a pedir al usuario
+	 * un dato hasta que sea de tipo entero. 
+	 * 
 	 * @param num1  es un int primer numero entero a sumar
 	 * @param num2  es un int segundo numero entero a sumar
 	 * @return solucion      Nos devuelve  int como solucion ya que es la  suma de dos numeros enteros  (num1, num2) que retornan
@@ -62,6 +68,9 @@ public class Suma {
 	/**
 	 * Creamos un metodo  double  Suma3Reales
 	 * al cual le pasamos por consola  tres numeros reales para poderlos sumar 
+	 * 
+	 * Casos especiales: 1. Si no se ingresan números se volverá a pedir al usuario
+	 * un dato hasta que sea de tipo numérico. 
 	 * 
 	 * @param num1  es un double y es el primer numero real a sumar
 	 * @param num2  es un double y es el segundo numero real a sumar
@@ -83,8 +92,11 @@ public class Suma {
 	 * 
 	 * Creamos un metodo int valorAcumulado que (int num)
 	 * 
-	 * @param  num valor que nos pasan por consola y los vamos sumando almenos 3 veses  ejemplo  3+4=7+2=9
-	
+	 * Casos especiales: 1. Si no se ingresan números enteros se volverá a pedir al usuario
+	 * un dato hasta que sea de tipo entero. 
+	 * 2. El acumulador podrá acumular incluso hacia números negativos, está permitido.
+	 * 
+	 * @param  num valor que nos pasan por consola y los vamos sumando al menos 3 veces,  ejemplo  3+4=7+2=9
 	 * @return Suma.acumulador Nos devuelve int el total del acumulador que retorna y es 9
 	 * 
 	 */
